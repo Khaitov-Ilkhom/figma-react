@@ -1,0 +1,134 @@
+.container {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px 50px 0 10px;
+    font-family: Arial, sans-serif;
+}
+.admin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user img {
+    width: 50px;
+}
+.user p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.icon {
+    font-size: 30px;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    gap: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+    transition: 0.3s;
+}
+.card img {
+    padding: 4px 0 0 4px;
+}
+.title h4 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.78px;
+}
+
+.title span {
+    color: #9DA1B4;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+}
+.title p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.32px;
+    margin-top: 8px;
+}
+.title p span {
+    color: #FC8B40;
+}
+.card:hover {
+    background-color: #FC8B40;
+    transform: scale(1.05);
+}
+.card:hover span {
+    color: #0BE9F8;
+}
+
+.lastCard {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+.cardBody {
+    padding: 30px 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardBody h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.type {
+    padding: 14px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #9DA1B4;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14.32px;
+}
+.rating span {
+    color: #FC8B40;
+}
+.desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9DA1B4;
+}
+
+.btn {
+    width: 100%;
+    padding: 18px 30px;
+    margin: 10px 0;
+    border: none;
+    background-color: #FC8B40;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    color: white;
+}
